@@ -4,22 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="contato, formulário, contrato">
+    <meta name="keywords" content="contato, formulário, cadastro">
     <meta name="description" content="Uma página para a inserção de informações para contato.">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Hernando Silva">
     <title>Página de Contato</title>
     <link rel="shortcut icon" href="img/contato.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
-    <section>
-        <header>
-            <h1>Insira suas informações</h1>
-        </header>
+
+    <header>
+        <h1>Contato</h1>
+    </header>
+
+    <section class="contact-form">
+            <h2>Envie uma mensagem:</h2>
+            <form action="" method="get">
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" placeholder="Digite aqui">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="Digite aqui">
+                <label for="mensage">Menssagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Digite aqui"></textarea>
+                <button type="submit">Enviar mensagem:</button>
+            </form>
     </section>
+
+    <footer>
+        <p>&copy;2024. Hernando. Todos os direitos reservados.</p>
+    </footer>
 
     <script src="js/script.js"></script>
 </body>
